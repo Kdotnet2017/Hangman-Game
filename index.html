@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/hangmanjs.js"></script>
+    <title>Hangman Game</title>
+</head>
+<body >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <!-- Logo & header -->
+                <div class="jumbotron">
+                    <h1>HANGMAN GAME</h1>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 headertop">
+                <!-- Category list a& instructions -->
+                <div class="container">
+                    <div class="col-lg-6">
+                        <p><strong>Instructions:</strong><code>1- Press SPACE key to start. 2- Press a letter to guess a word from selected category.
+                            3- If you guess a correct word before reaching the number of guesses remaining to zero you are a winner.
+                        </code></p>
+                    </div>
+                    <div class="col-lg-2">
+                        <p>Category: <span id="category">Animals</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4">
+                <!-- winner actions picture and music -->
+                <div class="imagebox">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 result">
+                <!-- Result - Game -->
+                <h5>Press <strong>SPACE</strong> to get started.</strong></h5>
+                <h5>Press <strong>ESC</strong> to restart game.</h5><br>
+                <p>WINS : <span id="wins">0</span></p>
+                <p>Current word</p>
+                <p><span id="currentword">- - - - -</span></p>
+                <p>Number of guesses remaining : <span id="guessesremaining">12</span></p>
+                <p>Letters already guessed</p>
+                <p><span id="guessedletters"></span></p>
+
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</body>
+</html>

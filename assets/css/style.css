@@ -1,0 +1,41 @@
+body{
+    background: black;
+    color:white;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.result{
+    text-align: center;
+}
+#wins,#guessesremaining,#category{
+    color:yellow;
+}
+#currentword{
+    font-size: 28px;
+    color: orange;
+}
+.imagebox{
+    width: 300px;
+    height: 300px;
+    background:grey;
+    border: 1px solid white;
+}
+.jumbotron{
+    background: black;
+    color:white;
+    text-align: center;
+    animation-name: hangmanlogo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes hangmanlogo{
+0%{color: yellow;}
+20%{color: red;}
+40%{color: blue;}
+60%{color: orange;}
+80%{color: aqua;}
+100%{color:green;}
+}
+.headertop{
+    font-size: 14px;
+}
