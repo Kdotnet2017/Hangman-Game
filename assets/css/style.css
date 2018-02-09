@@ -16,17 +16,23 @@ body{
 }
 .imagebox{
     width: 300px;
-    height: 300px;
-    background:grey;
-    border: 1px solid white;
+    height: 200px;
+    background:black;
+}
+#message{
+    color:red;
+}
+#winner{
+    color:green;
+    font-size: 32px;
 }
 .jumbotron{
     background: black;
-    color:white;
+    color:blue;
     text-align: center;
     animation-name: hangmanlogo;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; /* 15; */
 }
 @keyframes hangmanlogo{
 0%{color: yellow;}
