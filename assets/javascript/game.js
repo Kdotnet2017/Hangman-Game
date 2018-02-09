@@ -21,6 +21,7 @@ document.onkeyup = function (event) {
             displayCurrentWord(currentWord);
             document.getElementById("itemimage").setAttribute("src","assets/images/AnimalCategory.jpg");
             document.getElementById("winner").innerHTML="";
+            document.getElementById("instruction").innerHTML="";
         }
         if(palyerCurrentLetter!==" " && status==="Playing"){
             // real key pressed game is here
@@ -88,6 +89,7 @@ function lost(){
     remainingLettersNumber=12;
     guessedLetters=[];
     correctGuessedLetters=[];
+    document.getElementById("instruction").innerHTML="Press <strong> SPACE BAR</strong> to get started.";
 }
 function winner(){
     wins++;
@@ -100,6 +102,7 @@ function winner(){
     remainingLettersNumber=12;
     guessedLetters=[];
     correctGuessedLetters=[];
+    document.getElementById("instruction").innerHTML="Press <strong> SPACE BAR</strong> to get started.";
 }
 function playWinner()
     {
