@@ -89,7 +89,7 @@ function lost(){
     remainingLettersNumber=12;
     guessedLetters=[];
     correctGuessedLetters=[];
-    document.getElementById("instruction").innerHTML="Press <strong> SPACE BAR</strong> to get started.";
+    document.getElementById("instruction").innerHTML="Press<strong> SPACE BAR</strong> to get started.";
 }
 function winner(){
     wins++;
@@ -102,7 +102,7 @@ function winner(){
     remainingLettersNumber=12;
     guessedLetters=[];
     correctGuessedLetters=[];
-    document.getElementById("instruction").innerHTML="Press <strong> SPACE BAR</strong> to get started.";
+    document.getElementById("instruction").innerHTML="Press<strong> SPACE BAR</strong> to get started.";
 }
 function playWinner()
     {
